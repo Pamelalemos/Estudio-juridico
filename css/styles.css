@@ -411,8 +411,7 @@ select:disabled {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
+[type="submit"],{
 }
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -470,7 +469,6 @@ legend + * {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
 }
 
 /* rtl:raw:
@@ -2548,8 +2546,6 @@ textarea.form-control-lg {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  -webkit-print-color-adjust: exact;
-  color-adjust: exact;
 }
 .form-check-input[type="checkbox"] {
   border-radius: 0.25em;
@@ -4330,7 +4326,7 @@ fieldset:disabled .btn {
 .navbar > .container-xl,
 .navbar > .container-xxl {
   display: flex;
-  flex-wrp: inherit;
+
   align-items: center;
   justify-content: a space mx-auto;
 }
@@ -11813,7 +11809,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("/assets/img/martillito.jpg");
+  background-image: url("/img/martillito.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
